@@ -36,7 +36,7 @@ public class Homework01_230316 {
 			System.out.print(iArr[i][0] + "의 약수는 : ");
 			}
 			
-			for(int j = iArr.length; j >= 0; j++) {
+			for(int j = 1; j <= iArr[i][0]; j++) {
 				if(iArr[i][j] != 0) {
 				System.out.print(iArr[i][j]+" ");
 				
@@ -48,5 +48,18 @@ public class Homework01_230316 {
 				
 			}System.out.println();
 		}
+		sc.close();
+	
 	}
 }
+
+
+
+
+
+/*System.out.println(iArr.length);
+System.out.println(iArr[0].length);
+System.out.println(iArr[1].length);
+System.out.println(iArr[2].length);
+System.out.println(iArr[3].length);*/ 
+//1.5 for문 앞에 뭘적어야하는지 물어보기//질문하기

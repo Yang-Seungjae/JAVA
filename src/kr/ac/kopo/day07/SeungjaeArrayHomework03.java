@@ -9,17 +9,17 @@ public class SeungjaeArrayHomework03 {
 		Scanner sc = new Scanner(System.in);
 
 		
-		int[] score = new int[5];// ì„±ì  ì…ë ¥ ë³€ìˆ˜ 5ê°œ ë§Œë“¤ê¸°
-		char[] grade = new char[5];// í•™ì  ë³€ìˆ˜ 5ê°œ
-		int data = 0; // ì´í•© êµ¬í• ë•Œ ë³€ìˆ˜ ì„¤ì •
+		int[] score = new int[5];// ¼ºÀû ÀÔ·Â º¯¼ö 5°³ ¸¸µé±â
+		char[] grade = new char[5];// ÇĞÁ¡ º¯¼ö 5°³
+		int data = 0; // ÃÑÇÕ ±¸ÇÒ¶§ º¯¼ö ¼³Á¤
 		int errorcnt = 0;
 		for(int i = 0; i < score.length; i++) {
-			System.out.println((i+1)+"s ì„±ì  : " );
+			System.out.println((i+1)+"s ¼ºÀû : " );
 			score[i] = sc.nextInt();	
 			}
 		
 		System.out.println(" < PRINT > ");
-		System.out.println("ë²ˆí˜¸\tì„±ì \tí•™ì ");
+		System.out.println("¹øÈ£\t¼ºÀû\tÇĞÁ¡");
 		
 		
 		
@@ -46,9 +46,9 @@ public class SeungjaeArrayHomework03 {
 			
 			
 		}
-		System.out.printf("%dëª… ì…ë ¥ ì¤‘ [%d]íšŒ ì—ëŸ¬ë°œìƒ\n", score.length, errorcnt);
-		System.out.println("ì´ì  : " +data);
-		System.out.printf("í‰ê·  : %.1f\n", (double)data/score.length);
+		System.out.printf("%d¸í ÀÔ·Â Áß [%d]È¸ ¿¡·¯¹ß»ı\n", score.length, errorcnt);
+		System.out.println("ÃÑÁ¡ : " +data);
+		System.out.printf("Æò±Õ : %.1f\n", (double)data/score.length);
 		
 		}	
 		
@@ -59,4 +59,3 @@ public class SeungjaeArrayHomework03 {
 	
 	
 }
-

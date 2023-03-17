@@ -1,4 +1,4 @@
-package Homework0315;
+package Home01;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Home01 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 		int n = sc.nextInt();
 		if(n%2 == 0) {
 			n--;

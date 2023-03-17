@@ -12,19 +12,24 @@ public class Homework02_230316 {
 		Student st2 = new Student();
 		Student st3 = new Student();
 		Student st4 = new Student();
-		Student st5 = new Student();
+		Student st5 = new Student(); 
+		
+		Student[] stArr = new Student[5];
+		for(int i = 0; i < stArr.length; i++) {
+			stArr[i] = new Student();
+		}  /*ìœ„ì˜ ë°©ë²•ë³´ë‹¤ ì•„ëž˜ì˜ ë°©ë²•ìœ¼ë¡œ ì½”ë“œë¥¼ ë§Œë“¤ì–´ì•¼ ìœ ì§€ ë³´ìˆ˜ê°€ ì‰½ê³  íŽ¸ë¦¬í•˜ë‹¤.*/
 		
 		Student[] studentArr = {st1, st2, st3, st4, st5};
 		
-		int data = 0; // ÃÑÇÕ ±¸ÇÒ¶§ º¯¼ö ¼³Á¤
+		int data = 0; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò¶ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int errorcnt = 0;
 		for(int i = 0; i < studentArr.length; i++) {
-			System.out.println(studentArr[i]+"s ¼ºÀû : " );
+			System.out.println(studentArr[i]+"s ï¿½ï¿½ï¿½ï¿½ : " );
 			studentArr[i].score = sc.nextInt();	
 			}
 		
 		System.out.println(" < PRINT > ");
-		System.out.println("¹øÈ£\t¼ºÀû\tÇÐÁ¡");
+		System.out.println("ï¿½ï¿½È£\tï¿½ï¿½ï¿½ï¿½\tï¿½ï¿½ï¿½ï¿½");
 		
 		
 		
@@ -51,9 +56,9 @@ public class Homework02_230316 {
 			
 			
 		}
-		System.out.printf("%d¸í ÀÔ·Â Áß [%d]È¸ ¿¡·¯¹ß»ý\n", studentArr.length, errorcnt);
-		System.out.println("ÃÑÁ¡ : " +data);
-		System.out.printf("Æò±Õ : %.1f\n", (double)data/studentArr.length);
+		System.out.printf("%dï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ [%d]È¸ ï¿½ï¿½ï¿½ï¿½ï¿½ß»ï¿½\n", studentArr.length, errorcnt);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ : " +data);
+		System.out.printf("ï¿½ï¿½ï¿½ : %.1f\n", (double)data/studentArr.length);
 		sc.close();
 		}	
 	

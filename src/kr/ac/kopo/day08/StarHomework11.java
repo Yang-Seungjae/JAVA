@@ -19,17 +19,17 @@ public class StarHomework11 {
 				for(int j = 1; j <= (n/2)+1; j++) {
 					if(j <=(n/2)+2-i) {
 					System.out.print("*");}
-					else {
+					/*else {
 					System.out.print(" ");
-					}
+					}*/
 				}
 			}else {
 				for(int j = 1; j <= (n/2)+1; j++) {
 					if(j <= i-(n/2)) {
 						System.out.print("*");
-					}else {
+					}/*else {
 						System.out.print(" ");
-					}
+					}*/
 				}
 			}
 			System.out.println();

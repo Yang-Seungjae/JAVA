@@ -51,7 +51,7 @@ public class GameHomework {
 			
 			System.out.println();
 		}
-		
+		sc.close();
 
 	}
 

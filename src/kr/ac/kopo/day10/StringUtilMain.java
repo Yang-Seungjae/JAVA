@@ -1,5 +1,5 @@
 package kr.ac.kopo.day10;
-
+// 과제 내가 한것
 import java.util.Scanner;
 
 public class StringUtilMain {

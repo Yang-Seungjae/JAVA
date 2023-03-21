@@ -22,7 +22,7 @@ public class CarMain02 {
 		c3.price = 8000;
 		
 		
-		Car[] carArr = {c, c2, c3};
+		Car[] carArr = {c, c2, c3}; // new Car[no]
 		for(int i = 0; i < carArr.length; i++) {
 			System.out.print("모델명 : " + carArr[i].model + ", 가격 : " + carArr[i].price + "\n");
 		}

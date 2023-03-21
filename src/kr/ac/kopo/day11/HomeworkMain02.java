@@ -13,6 +13,8 @@ public class HomeworkMain02 {
 		System.out.println("revStr : " + revStr );
 		String upperStr = util.toUpperString(str);
 		System.out.println("대문자변환 : " + upperStr);
+		
+		
 	}
 }
 

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IcecreamHomework {
 	
+	
 	String name;
 	int price;
 	Scanner sc;

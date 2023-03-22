@@ -16,7 +16,11 @@ public class Market {
 	// 숫자 입력받기
 	int getInt(String msg) {
 		System.out.println(msg);
-		int num = Integer.parseInt(sc.nextLine()); // 이부분에 nextInt로하면 오류가나는데 이유알아보기
+		//int num = Integer.parseInt(sc.nextLine()); // 이부분에 nextInt로하면 오류가나는데 이유알아보기
+		int num = sc.nextInt();
+		sc.nextLine();
+		// nextInt();로 입력받으면 입력 버퍼에 엔터 등의 잔여물이 남아있어서 이 뒤에 문자열을 찍는걸 반복하면
+		//에러가뜬다 이를 해결하기 위해 sc.nexLine();쳐서 버퍼를 지워준다.
 		
 		return num;
 	}
@@ -50,6 +54,7 @@ public class Market {
 			System.out.print( (i+1) + "\t");
 			 iceArr[i].Info();
 		}
+		IcecreamHW.totalInfo();
 
 	}
 	

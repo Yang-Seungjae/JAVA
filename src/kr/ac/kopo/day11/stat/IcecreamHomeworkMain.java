@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class IcecreamHomeworkMain {
 	
+	IcecreamHomeworkMain[] iceArr;
+	
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -13,14 +15,15 @@ public class IcecreamHomeworkMain {
 		int no = iceText.nextInt("아이스크림 몇개 구입할래? : ");
 		
 		
-		
-		
-		for (int i = 0; i < no; i++) {
-			System.out.println("*** " + (i+1) + "번째 아이스크림 구매 정보 입력 ***");
-			ice.iceName(no);
-			ice.icePrice(no);
-		}
-		
+//		
+//		
+//		for (int i = 0; i < no; i++) {
+//			System.out.println("*** " + (i+1) + "번째 아이스크림 구매 정보 입력 ***");
+//			ice.iceName("아이스크림 이름 : ");
+//			ice.icePrice("아이스크림 가격 : ");
+//			iceArr[i] = new IcecreamHomework(name, price);
+//		}
+//		
 		System.out.println("< 총" + no +"개의 아이스크림 구매 정보 출력");
 		
 	

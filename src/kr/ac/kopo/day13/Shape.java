@@ -45,4 +45,13 @@ public class Shape extends Area{
 
 		return area;
 	}
+	public double getNo1() {
+		
+		return super.no1;
+	}
+	public double getNo2() {
+		
+		return super.no2;
+	}
+							
 }

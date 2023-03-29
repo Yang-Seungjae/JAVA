@@ -13,8 +13,8 @@ public class CastMain01 {
 	*/
 	
 		
-	public static void print(Parent p) {
-		p.info();
+	public static void print(Parent p) { // 묵시적 형변환을 사용하면 부모영역의 멤버변수와 메소드만 사용이가능함
+		p.info();						// 이 상황에서 자식 영역의 멤버변수와 메소드를 사용하고싶을때 다시 명시적 형변환으로 자식영역 접근
 	}
 	
 	public static void main(String[] args) {

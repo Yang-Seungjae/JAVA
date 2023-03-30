@@ -11,15 +11,15 @@ class Employee {
 		this.name = name;
 		this.phone = phone;
 	}
-/*
-	@Override
-	public boolean equals(Object obj) {
-		
-		Employee e = (Employee)obj;
-		if(this.name.equals(e.name) && this.phone.equals(e.phone)) {// 객체와 객체를 비교할때 equals 메소드 사용
-			return true;
-		}
-		return false;
+
+//	@Override
+//	public boolean equals(Object obj) {
+//		
+//		Employee e = (Employee)obj;
+//		if(this.name.equals(e.name) && this.phone.equals(e.phone)) {// 객체와 객체를 비교할때 equals 메소드 사용
+//			return true;
+//		}
+//		return false;
 //		if(this.name.equals(((Employee)obj).name)) {
 //			if(this.phone.equals(((Employee)obj).phone)) {
 //				return true;
@@ -28,15 +28,15 @@ class Employee {
 //		}
 //		return false;
 //	
-	}
-
-	@Override
-	public int hashCode() {
-		
-		return super.hashCode();
-	}
+//	}
+//
+//	@Override
+//	public int hashCode() {
+//		
+//		return super.hashCode();
+//	}
+//	
 	
-*/	
 // 위의 두개의 메소드를 해줘야 객체와 객체를 비교할때 해쉬코드와 이퀄스가 둘다 같아야 같은거로 보기때문에 
 	// 이 두개를 편의하게 하기위해 source에 기능을 사용한다.
 

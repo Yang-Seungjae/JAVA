@@ -34,6 +34,7 @@ public class MapMain01 {
 		
 		//System.out.println("전체 회원수 : " + members.size()); 
 		
+		
 		System.out.println("*** 비밀번호 변경서비스 ***");
 		System.out.println("아이디를 입력하세요 : ");
 		String id = sc.nextLine();

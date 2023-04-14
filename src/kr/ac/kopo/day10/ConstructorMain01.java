@@ -8,8 +8,9 @@ package kr.ac.kopo.day10;
  * */
 class Dog {
 	// Dog 클래스를 따로 만드는것과 완전 같은 개념은 아니다. 
-	/*Dog(){
-		System.out.println("디폴트 생성자 Dog() 호출 ...");*/
+	Dog(){
+		System.out.println("디폴트 생성자 Dog() 호출 ...");
+	}
 	Dog(int i){
 		System.out.println("Dog(int) 생성자 호출...");
 	}
@@ -23,6 +24,7 @@ public class ConstructorMain01 {
 		//new Dog();// 생성자 호출 정의안해도 에러안나는건 default 생성자를 JVM이 자동으로 만들기 때문
 		
 		new Dog(10);
+		
 	}
 
 }

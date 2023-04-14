@@ -1,7 +1,6 @@
 package kr.ac.kopo.day16;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 /*
@@ -26,8 +25,8 @@ public class ListMain {
 
 	public static void main(String[] args) {
 		
-//		List<String> list = new ArrayList<String>();
-		List<String> list = new LinkedList<String>();
+		List<String> list = new ArrayList<String>();
+//		List<String> list = new LinkedList<String>();
 		
 		System.out.println("list : " + list);
 		System.out.println("전체원소의 개수 : " + list.size());

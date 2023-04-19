@@ -13,7 +13,8 @@ public class Baseball {
 		int no1, no2, no3;
 		int user1, user2, user3;
 		int outcnt = 0;
-		int strikeCnt = 0, ballCnt = 0;
+		int strikeCnt = 0;
+		int ballCnt = 0; 
 
 		while (true) {
 

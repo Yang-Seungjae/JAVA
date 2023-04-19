@@ -11,6 +11,7 @@ public class LoopMainPrac04 {
 			System.out.printf("%d", j);
 		}
 			System.out.println();
+			
 	}
 			
 			
